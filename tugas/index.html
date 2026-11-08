@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT-Solution — Platform Layanan Digital & Unit Usaha HMP-TI UNISKA</title>
+    <meta name="description"
+        content="Katalog resmi IT-Solution, unit usaha modern di bawah naungan HMP-TI UNISKA Banjarmasin. Melayani kebutuhan F&B, Percetakan Dokumen, Konsinyasi Produk, dan Jasa Kreatif Multimedia untuk mahasiswa, UMKM, dan masyarakat umum.">
+
+    <!-- Google Fonts: Plus Jakarta Sans & Space Grotesk -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="cyber-theme">
+
+    <!-- Luminous Futuristic Background Gradients & Glow Blobs -->
+    <div class="luminous-canvas-wrap" aria-hidden="true">
+        <div class="luminous-glow glow-cyan"></div>
+        <div class="luminous-glow glow-purple"></div>
+        <div class="luminous-glow glow-sky"></div>
+        <div class="luminous-glow glow-violet"></div>
+        <div class="cyber-digital-grid"></div>
+        <div class="cyber-particles" id="cyber-particles"></div>
+    </div>
+
+    <!-- Campus & Public Announcement Ticker -->
+    <aside class="campus-ticker-bar">
+        <div class="ticker-content">
+            <span class="ticker-badge">⚡ PLATFORM TERBUKA UNTUK UMUM</span>
+            <p class="ticker-text">
+                <strong>IT-Solution UNISKA:</strong> Melayani Pelajar, Mahasiswa Seluruh Kampus, Pelaku Usaha UMKM,
+                Komunitas & Masyarakat Umum! Bisa order online kirim via kurir / ambil langsung di Sekretariat HMP-TI
+                Kampus Adyaksa Banjarmasin.
+            </p>
+        </div>
+    </aside>
+
+    <!-- ==================== HEADER / NAVBAR ==================== -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#beranda" class="nav-brand">
+                <span class="brand-badge-icon">
+                    <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2.2"
+                        fill="none">
+                        <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                        <polyline points="2 17 12 22 22 17"></polyline>
+                        <polyline points="2 12 12 17 22 12"></polyline>
+                    </svg>
+                </span>
+                <div class="brand-text">
+                    <span class="brand-title">IT-<strong>Solution</strong></span>
+                    <span class="brand-sub">HMP-TI UNISKA BANJARMASIN</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Menu -->
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#beranda" class="nav-link active">Beranda</a></li>
+                    <li class="nav-item"><a href="#keunggulan" class="nav-link">Keunggulan</a></li>
+                    <li class="nav-item"><a href="#unit-usaha" class="nav-link">Katalog 4 Unit</a></li>
+                    <li class="nav-item"><a href="#kalkulator" class="nav-link">Kalkulator Biaya</a></li>
+                    <li class="nav-item"><a href="#ulasan" class="nav-link">Ulasan Pelanggan</a></li>
+                    <li class="nav-item"><a href="#lokasi" class="nav-link">Lokasi</a></li>
+                </ul>
+            </nav>
+
+            <!-- Nav CTA & Controls -->
+            <div class="nav-actions">
+                <!-- Live Status Pill -->
+                <div class="nav-status-pill" id="nav-status-pill" title="Status Operasional IT-Solution">
+                    <span class="status-pulse-dot"></span>
+                    <span class="status-text-nav">Layanan Buka</span>
+                </div>
+
+                <a href="#kalkulator" class="btn btn-cyber-sm">
+                    <span>Hitung Biaya</span>
+                    <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none">
+                        <rect x="4" y="2" width="16" height="20" rx="2"></rect>
+                        <line x1="8" y1="6" x2="16" y2="6"></line>
+                        <line x1="16" y1="14" x2="16" y2="18"></line>
+                        <path d="M16 10h.01"></path>
+                        <path d="M12 10h.01"></path>
+                        <path d="M8 10h.01"></path>
+                        <path d="M12 14h.01"></path>
+                        <path d="M8 14h.01"></path>
+                        <path d="M12 18h.01"></path>
+                        <path d="M8 18h.01"></path>
+                    </svg>
+                </a>
+
+                <!-- Mobile Hamburger Toggle -->
+                <button class="menu-toggle" id="menu-toggle" aria-label="Buka Menu Navigasi">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Overlay -->
+    <div class="mobile-nav-backdrop" id="mobile-backdrop"></div>
+
+    <main>
+        <!-- ==================== HERO SECTION ==================== -->
+        <section class="hero-section" id="beranda">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="hero-tag">
+                        <span class="tag-glow-dot"></span>
+                        <span>IT-SOLUTION • PLATFORM LAYANAN DIGITAL & WIRAUSAHA HMP-TI UNISKA</span>
+                    </div>
+
+                    <!-- Judul Utama Halaman (Wajib Tepat 1 Tag H1) -->
+                    <h1 class="hero-title">
+                        Katalog Digital <span class="gradient-cyber-text">IT-Solution</span>: Solusi Terpadu Mahasiswa,
+                        UMKM & Masyarakat Umum
+                    </h1>
+
+                    <p class="hero-desc">
+                        IT-Solution adalah pusat wirausaha digital kreatif yang dinaungi oleh <strong>HMP-TI UNISKA
+                            Banjarmasin</strong>. Kami menyediakan sajian F&B berkualitas, layanan percetakan dokumen
+                        kilat, konsinyasi produk, hingga jasa multimedia kreatif berstandar profesional untuk semua
+                        kalangan dengan harga terjangkau!
+                    </p>
+
+                    <!-- Audience Category Tags -->
+                    <div class="audience-badge-strip">
+                        <span class="aud-pill">🎓 Pelajar & Mahasiswa</span>
+                        <span class="aud-pill">💼 Pekerja & Kantor</span>
+                        <span class="aud-pill">🏪 Pelaku UMKM Lokal</span>
+                        <span class="aud-pill">👥 Komunitas & Publik</span>
+                    </div>
+
+                    <!-- Interactive Quick Jump Pills -->
+                    <div class="quick-needs-label">✨ Cari layanan apa hari ini?</div>
+                    <div class="quick-needs-pills">
+                        <button class="pill-jump" data-filter-target="fnb">🍔 Kuliner & Minuman Segar</button>
+                        <button class="pill-jump" data-filter-target="print">🖨️ Print & Jilid Kilat</button>
+                        <button class="pill-jump" data-filter-target="konsinyasi">📦 Titip Jual Produk</button>
+                        <button class="pill-jump" data-filter-target="kreatif">🎨 Desain, Foto & Video</button>
+                    </div>
+
+                    <div class="hero-cta-group">
+                        <a href="#unit-usaha" class="btn btn-cyber-lg">
+                            <span>Eksplorasi 4 Unit Usaha</span>
+                            <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2.2"
+                                fill="none">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        <a href="#kalkulator" class="btn btn-glass-lg">
+                            <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2"
+                                fill="none">
+                                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                <path d="M7 15h0M2 9.5h20"></path>
+                            </svg>
+                            <span>Simulasi Hitung Biaya</span>
+                        </a>
+                    </div>
+
+                    <!-- Performance & Satisfaction Counter -->
+                    <div class="hero-stats">
+                        <div class="stat-card">
+                            <span class="stat-num" data-target="4">4</span>
+                            <span class="stat-label">Unit Usaha Terpadu</span>
+                        </div>
+                        <div class="stat-sep"></div>
+                        <div class="stat-card">
+                            <span class="stat-num" data-target="2500">2.500+</span>
+                            <span class="stat-label">Order & Klien Terlayani</span>
+                        </div>
+                        <div class="stat-sep"></div>
+                        <div class="stat-card">
+                            <span class="stat-num">4.9★</span>
+                            <span class="stat-label">Rating Kepuasan Pengguna</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Futuristic Interactive Visual Banner -->
+                <div class="hero-visual">
+                    <div class="cyber-card-main">
+                        <div class="card-glass-header">
+                            <div class="window-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <span class="terminal-title">it_solution://uniska.catalog.v3.live</span>
+                        </div>
+
+                        <div class="card-preview-body">
+                            <div class="preview-unit-row active" data-unit-preview="fnb">
+                                <div class="preview-icon fnb">🍔</div>
+                                <div class="preview-info">
+                                    <strong>IT-Solution F&B (Food & Drink)</strong>
+                                    <small>Makanan siap santap, snack box & kopi kekinian</small>
+                                </div>
+                                <span class="preview-badge badge-fnb">Mulai Rp 5k</span>
+                            </div>
+
+                            <div class="preview-unit-row" data-unit-preview="print">
+                                <div class="preview-icon print">🖨️</div>
+                                <div class="preview-info">
+                                    <strong>IT-Solution Percetakan & Dokumen</strong>
+                                    <small>Print dokumen, jilid skripsi/laporan, flyer & brosur</small>
+                                </div>
+                                <span class="preview-badge badge-print">Mulai Rp 300</span>
+                            </div>
+
+                            <div class="preview-unit-row" data-unit-preview="konsinyasi">
+                                <div class="preview-icon konsinyasi">📦</div>
+                                <div class="preview-info">
+                                    <strong>IT-Solution Konsinyasi Terpadu</strong>
+                                    <small>Wadah titip jual produk UMKM, makanan & kreasi</small>
+                                </div>
+                                <span class="preview-badge badge-konsinyasi">Bagi Hasil 90:10</span>
+                            </div>
+
+                            <div class="preview-unit-row" data-unit-preview="kreatif">
+                                <div class="preview-icon kreatif">🎨</div>
+                                <div class="preview-info">
+                                    <strong>IT-Solution Jasa Kreatif Multimedia</strong>
+                                    <small>Desain grafis, branding, fotografi & videografi</small>
+                                </div>
+                                <span class="preview-badge badge-kreatif">Standar Pro</span>
+                            </div>
+                        </div>
+
+                        <!-- Glowing Terminal Footer -->
+                        <div class="card-footer-stats">
+                            <div class="pulse-code">
+                                <code>SYSTEM STATUS: ALL 4 UNITS ONLINE & READY TO SERVE [OK]</code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== KEUNGGULAN / VALUE PROPOSITION ==================== -->
+        <section class="features-section" id="keunggulan">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <span class="section-tag-cyber">MENGAPA IT-SOLUTION?</span>
+                    <h2 class="section-title">Kualitas Terpercaya, Cepat, dan Terbuka untuk Semua</h2>
+                    <p class="section-subtitle">
+                        Dikelola dengan dedikasi profesional oleh mahasiswa berbakat Teknik Informatika UNISKA.
+                        Menghubungkan kebutuhan harian, perkuliahan, dan bisnis dengan solusi digital yang ringkas.
+                    </p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-box">
+                        <div class="feature-icon-circle">
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2"
+                                fill="none">
+                                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                            </svg>
+                        </div>
+                        <h3 class="feature-heading">Harga Transparan & Terjangkau</h3>
+                        <p class="feature-text">Tarif bersaing untuk seluruh kalangan: pelajar, mahasiswa, instansi
+                            kantor, hingga pelaku UMKM tanpa biaya tersembunyi.</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <div class="feature-icon-circle">
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2"
+                                fill="none">
+                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                            </svg>
+                        </div>
+                        <h3 class="feature-heading">Layanan Cepat Siap Deadline</h3>
+                        <p class="feature-text">Proses pengerjaan gesit dengan tim yang siaga setiap hari, baik secara
+                            online maupun offline di Kampus Adyaksa.</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <div class="feature-icon-circle">
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2"
+                                fill="none">
+                                <rect x="2" y="5" width="20" height="14" rx="2"></rect>
+                                <line x1="2" y1="10" x2="22" y2="10"></line>
+                            </svg>
+                        </div>
+                        <h3 class="feature-heading">Multi-Payment (QRIS, E-Wallet & Cash)</h3>
+                        <p class="feature-text">Menerima pembayaran digital via QRIS (BCA, Mandiri, BRI, GoPay,
+                            ShopeePay, DANA) maupun pembayaran tunai langsung.</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <div class="feature-icon-circle">
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2"
+                                fill="none">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                        </div>
+                        <h3 class="feature-heading">Kemitraan Konsinyasi Terbuka</h3>
+                        <p class="feature-text">Membuka kesempatan kolaborasi titip jual produk kuliner, fashion, dan
+                            kerajinan tangan dengan pembukuan real-time.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== KATALOG 4 UNIT USAHA ==================== -->
+        <section class="catalog-section" id="unit-usaha">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <span class="section-tag-cyber">KATALOG 4 UNIT USAHA</span>
+                    <h2 class="section-title">Temukan Solusi yang Tepat untuk Kebutuhanmu</h2>
+                    <p class="section-subtitle">
+                        Pilih unit usaha IT-Solution di bawah ini atau manfaatkan fitur pencarian cepat untuk mengecek
+                        ketersediaan produk dan layanan.
+                    </p>
+
+                    <!-- Search & Filter Controls -->
+                    <div class="catalog-controls">
+                        <div class="search-box">
+                            <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2"
+                                fill="none">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg>
+                            <input type="text" id="unit-search"
+                                placeholder="Cari layanan (contoh: rice bowl, print skripsi, titip jual, feed instagram)..."
+                                aria-label="Cari Unit Usaha">
+                        </div>
+
+                        <!-- Filter Buttons -->
+                        <div class="filter-tab-group" id="filter-tab-group">
+                            <button class="filter-btn active" data-unit="all">Semua Layanan</button>
+                            <button class="filter-btn" data-unit="fnb">🍔 Unit F&B</button>
+                            <button class="filter-btn" data-unit="print">🖨️ Percetakan & Dokumen</button>
+                            <button class="filter-btn" data-unit="konsinyasi">📦 Konsinyasi Produk</button>
+                            <button class="filter-btn" data-unit="kreatif">🎨 Jasa Kreatif Multimedia</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4 Unit Usaha Grid (Semantik Article & Section) -->
+                <div class="units-grid" id="units-grid">
+
+                    <!-- ================= UNIT 1: F&B ================= -->
+                    <article class="unit-card card-unit-fnb" data-category="fnb">
+                        <div class="card-media">
+                            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=700&q=80"
+                                alt="Unit Usaha F&B IT-Solution HMP-TI UNISKA" class="unit-img" loading="lazy">
+                            <div class="media-overlay"></div>
+                            <span class="unit-badge badge-fnb">Unit F&B (Food & Drink)</span>
+                            <span class="unit-hot-tag">🔥 Best Seller</span>
+                        </div>
+
+                        <div class="unit-card-body">
+                            <div class="unit-title-row">
+                                <h3 class="unit-name">IT-Solution F&B (Food & Drink)</h3>
+                                <span class="unit-rating-pill">★ 4.9</span>
+                            </div>
+
+                            <!-- Deskripsi Unit Menggunakan Tag P -->
+                            <p class="unit-desc">
+                                Menyediakan aneka sajian makanan lezat, paket rice bowl higienis untuk makan siang atau
+                                konsumsi rapat kantor/event, camilan gurih, serta berbagai pilihan minuman dingin dan
+                                kopi espresso gula aren yang siap dinikmati oleh mahasiswa maupun masyarakat luas.
+                            </p>
+
+                            <div class="service-list">
+                                <div class="service-pill">🍲 Rice Bowl Ayam Geprek & Teriyaki</div>
+                                <div class="service-pill">☕ Kopi Susu Aren & Americano Segar</div>
+                                <div class="service-pill">🥪 Toast Roti Bakar Berbagai Varian</div>
+                                <div class="service-pill">🍱 Paket Snack Box Rapat & Acara</div>
+                            </div>
+
+                            <div class="unit-card-footer">
+                                <div class="price-estimate">
+                                    <span>Harga Mulai</span>
+                                    <strong>Rp 5.000 – Rp 15.000</strong>
+                                </div>
+                                <a href="https://wa.me/6281234567890?text=Halo%20Admin%20IT-Solution%20F%26B%20HMP-TI%20UNISKA%2C%20saya%20ingin%20memesan%20makanan%2Fminuman"
+                                    target="_blank" rel="noopener noreferrer" class="btn btn-order-unit"
+                                    data-unit-name="IT-Solution F&B">
+                                    <span>Pesan Menu (WA)</span>
+                                    <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor"
+                                        stroke-width="2.5" fill="none">
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        <polyline points="12 5 19 12 12 19"></polyline>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- ================= UNIT 2: PERCETAKAN & DOKUMEN ================= -->
+                    <article class="unit-card card-unit-print" data-category="print">
+                        <div class="card-media">
+                            <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=700&q=80"
+                                alt="Unit Percetakan & Dokumen IT-Solution HMP-TI UNISKA" class="unit-img"
+                                loading="lazy">
+                            <div class="media-overlay"></div>
+                            <span class="unit-badge badge-print">IT-Solution Percetakan & Dokumen</span>
+                            <span class="unit-hot-tag">⚡ Layanan Kilat</span>
+                        </div>
+
+                        <div class="unit-card-body">
+                            <div class="unit-title-row">
+                                <h3 class="unit-name">IT-Solution Percetakan & Dokumen</h3>
+                                <span class="unit-rating-pill">★ 4.9</span>
+                            </div>
+
+                            <!-- Deskripsi Unit Menggunakan Tag P -->
+                            <p class="unit-desc">
+                                Pusat solusi kebutuhan dokumen cepat, tajam, dan rapi! Melayani print warna & hitam
+                                putih kilat, fotokopi lembaran, jilid hardcover skripsi resmi, jilid spiral laporan
+                                kerja, cetak proposal bisnis UMKM, cetak flyer promosi, serta pengetikan dan perapian
+                                format naskah.
+                            </p>
+
+                            <div class="service-list">
+                                <div class="service-pill">📄 Print B/W & Full Color Kilat</div>
+                                <div class="service-pill">📑 Jilid Hardcover Skripsi & Laporan</div>
+                                <div class="service-pill">🌀 Jilid Spiral Kawat & Plastik</div>
+                                <div class="service-pill">📰 Cetak Brosur, Pamflet & Sertifikat</div>
+                            </div>
+
+                            <div class="unit-card-footer">
+                                <div class="price-estimate">
+                                    <span>Harga Mulai</span>
+                                    <strong>Rp 300 / lembar</strong>
+                                </div>
+                                <a href="https://wa.me/6281234567890?text=Halo%20Admin%20IT-Solution%20Percetakan%20HMP-TI%20UNISKA%2C%20saya%20ingin%20order%20print%2Fjilid%20dokumen"
+                                    target="_blank" rel="noopener noreferrer" class="btn btn-order-unit"
+                                    data-unit-name="IT-Solution Percetakan">
+                                    <span>Kirim File (WA)</span>
+                                    <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor"
+                                        stroke-width="2.5" fill="none">
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        <polyline points="12 5 19 12 12 19"></polyline>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- ================= UNIT 3: KONSINYASI ================= -->
+                    <article class="unit-card card-unit-konsinyasi" data-category="konsinyasi">
+                        <div class="card-media">
+                            <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=80"
+                                alt="Unit Konsinyasi Produk IT-Solution HMP-TI UNISKA" class="unit-img" loading="lazy">
+                            <div class="media-overlay"></div>
+                            <span class="unit-badge badge-konsinyasi">IT-Solution Konsinyasi</span>
+                            <span class="unit-hot-tag">💼 Bagi Hasil 90:10</span>
+                        </div>
+
+                        <div class="unit-card-body">
+                            <div class="unit-title-row">
+                                <h3 class="unit-name">IT-Solution Konsinyasi & Etalase</h3>
+                                <span class="unit-rating-pill">★ 4.8</span>
+                            </div>
+
+                            <!-- Deskripsi Unit Menggunakan Tag P -->
+                            <p class="unit-desc">
+                                Etalase mitra wirausaha yang menghubungkan produk mahasiswa, pelaku UMKM lokal, dan
+                                kreator independen ke pasar yang luas. Kami menerima titip jual aneka camilan kemasan,
+                                merchandise, kerajinan tangan, stiker kreasi, hingga buku modul dengan pencatatan
+                                digital transparan.
+                            </p>
+
+                            <div class="service-list">
+                                <div class="service-pill">🍪 Titip Jual Snack & Kuliner Kemasan</div>
+                                <div class="service-pill">👕 Display Merchandise, Apparel & Kaos</div>
+                                <div class="service-pill">🏷️ Produk UMKM Lokal & Kerajinan</div>
+                                <div class="service-pill">📊 Rekapitulasi Penjualan Real-Time via WA</div>
+                            </div>
+
+                            <div class="unit-card-footer">
+                                <div class="price-estimate">
+                                    <span>Bagi Hasil Adil</span>
+                                    <strong>Mulai 5% – 10%</strong>
+                                </div>
+                                <a href="https://wa.me/6281234567890?text=Halo%20Admin%20IT-Solution%20Konsinyasi%20HMP-TI%20UNISKA%2C%20saya%20ingin%20titip%20jual%20produk%20saya"
+                                    target="_blank" rel="noopener noreferrer" class="btn btn-order-unit"
+                                    data-unit-name="IT-Solution Konsinyasi">
+                                    <span>Titip Barang (WA)</span>
+                                    <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor"
+                                        stroke-width="2.5" fill="none">
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        <polyline points="12 5 19 12 12 19"></polyline>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- ================= UNIT 4: JASA KREATIF ================= -->
+                    <article class="unit-card card-unit-kreatif" data-category="kreatif">
+                        <div class="card-media">
+                            <img src="https://images.unsplash.com/photo-1542744094-3a31727221eb?auto=format&fit=crop&w=700&q=80"
+                                alt="Unit Jasa Kreatif IT-Solution HMP-TI UNISKA" class="unit-img" loading="lazy">
+                            <div class="media-overlay"></div>
+                            <span class="unit-badge badge-kreatif">IT-Solution Jasa Kreatif</span>
+                            <span class="unit-hot-tag">⭐ Portofolio Juara</span>
+                        </div>
+
+                        <div class="unit-card-body">
+                            <div class="unit-title-row">
+                                <h3 class="unit-name">IT-Solution Jasa Kreatif & Multimedia</h3>
+                                <span class="unit-rating-pill">★ 5.0</span>
+                            </div>
+
+                            <!-- Deskripsi Unit Menggunakan Tag P -->
+                            <p class="unit-desc">
+                                Studio kreatif multimedia yang melayani kebutuhan visual modern untuk personal, ormawa,
+                                maupun brand bisnis. Mulai dari desain logo, branding feed media sosial, sesi fotografi
+                                wisuda/sidang/produk komersial, hingga produksi video promosi dan aftermovie sinematik.
+                            </p>
+
+                            <div class="service-list">
+                                <div class="service-pill">🎨 Desain Logo, Feed IG & Brosur Bisnis</div>
+                                <div class="service-pill">📸 Sesi Fotografi Wisuda, Produk & Event</div>
+                                <div class="service-pill">🎬 Produksi Video Promosi, Reels & Teaser</div>
+                                <div class="service-pill">💻 Mockup UI/UX Web/App & Presentasi</div>
+                            </div>
+
+                            <div class="unit-card-footer">
+                                <div class="price-estimate">
+                                    <span>Harga Mulai</span>
+                                    <strong>Rp 25.000 – Rp 150.000</strong>
+                                </div>
+                                <a href="https://wa.me/6281234567890?text=Halo%20Admin%20IT-Solution%20Jasa%20Kreatif%20HMP-TI%20UNISKA%2C%20saya%20ingin%20konsultasi%20desain%2Ffoto%2Fvideo"
+                                    target="_blank" rel="noopener noreferrer" class="btn btn-order-unit"
+                                    data-unit-name="IT-Solution Jasa Kreatif">
+                                    <span>Konsultasi Proyek (WA)</span>
+                                    <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor"
+                                        stroke-width="2.5" fill="none">
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        <polyline points="12 5 19 12 12 19"></polyline>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <!-- No Results Found State (Hidden by default) -->
+                <div class="no-results-state" id="no-results-state" style="display: none;">
+                    <div class="no-results-icon">🔍</div>
+                    <h3>Layanan Tidak Ditemukan</h3>
+                    <p>Coba kata kunci lain atau pilih tombol "Semua Layanan" di atas.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== INTERACTIVE FEATURE: KALKULATOR ESTIMASI BIAYA ==================== -->
+        <section class="calculator-section" id="kalkulator">
+            <div class="container">
+                <div class="calc-card-container">
+                    <div class="calc-info-col">
+                        <span class="section-tag-cyber">SIMULASI HARGA INTERAKTIF</span>
+                        <h2 class="calc-title">Kalkulator Estimasi Biaya Layanan</h2>
+                        <p class="calc-desc">
+                            Hitung sendiri estimasi biaya kebutuhanmu dalam sekejap! Cocok untuk mahasiswa yang ingin
+                            memperkirakan biaya cetak tugas, maupun instansi/UMKM yang membutuhkan kalkulasi cepat
+                            sebelum memesan via WhatsApp.
+                        </p>
+                        <div class="calc-perks">
+                            <div class="c-perk"><span>⚡</span> Tanpa minimal order untuk cetak lembaran</div>
+                            <div class="c-perk"><span>💳</span> Pembayaran praktis via QRIS / Tunai</div>
+                            <div class="c-perk"><span>📍</span> Siap ambil di Sekretariat Adyaksa atau kirim kurir</div>
+                        </div>
+                    </div>
+
+                    <div class="calc-tool-col">
+                        <div class="calc-tool-box">
+                            <h3 class="calc-box-title">Pilih Item & Masukkan Jumlah:</h3>
+
+                            <div class="calc-options-grid">
+                                <!-- Option 1 -->
+                                <div class="calc-item-row">
+                                    <div class="calc-item-meta">
+                                        <strong>Print Hitam-Putih (B/W)</strong>
+                                        <small>Rp 300 / lembar (Kertas HVS A4/F4 berkualitas)</small>
+                                    </div>
+                                    <div class="calc-counter">
+                                        <input type="number" id="qty-print-bw" min="0" value="0" step="1"
+                                            class="calc-input" placeholder="0">
+                                        <span class="counter-unit">lbr</span>
+                                    </div>
+                                </div>
+
+                                <!-- Option 2 -->
+                                <div class="calc-item-row">
+                                    <div class="calc-item-meta">
+                                        <strong>Print Full Color</strong>
+                                        <small>Rp 1.000 / lembar (Warna tajam, bagan/grafik)</small>
+                                    </div>
+                                    <div class="calc-counter">
+                                        <input type="number" id="qty-print-color" min="0" value="0" step="1"
+                                            class="calc-input" placeholder="0">
+                                        <span class="counter-unit">lbr</span>
+                                    </div>
+                                </div>
+
+                                <!-- Option 3 -->
+                                <div class="calc-item-row">
+                                    <div class="calc-item-meta">
+                                        <strong>Jilid Hardcover Skripsi / Laporan</strong>
+                                        <small>Rp 35.000 / buku (Tinta emas, rapi standar resmi)</small>
+                                    </div>
+                                    <div class="calc-counter">
+                                        <input type="number" id="qty-jilid-hard" min="0" value="0" step="1"
+                                            class="calc-input" placeholder="0">
+                                        <span class="counter-unit">buku</span>
+                                    </div>
+                                </div>
+
+                                <!-- Option 4 -->
+                                <div class="calc-item-row">
+                                    <div class="calc-item-meta">
+                                        <strong>Jilid Spiral Kawat / Plastik</strong>
+                                        <small>Rp 6.000 / jilid (Cover mika bening pelindung)</small>
+                                    </div>
+                                    <div class="calc-counter">
+                                        <input type="number" id="qty-jilid-spiral" min="0" value="0" step="1"
+                                            class="calc-input" placeholder="0">
+                                        <span class="counter-unit">jilid</span>
+                                    </div>
+                                </div>
+
+                                <!-- Option 5 -->
+                                <div class="calc-item-row">
+                                    <div class="calc-item-meta">
+                                        <strong>Rice Bowl Ayam Geprek IT-Solution</strong>
+                                        <small>Rp 12.000 / porsi (Ayam krispi + nasi pulen + sambal)</small>
+                                    </div>
+                                    <div class="calc-counter">
+                                        <input type="number" id="qty-food" min="0" value="0" step="1" class="calc-input"
+                                            placeholder="0">
+                                        <span class="counter-unit">porsi</span>
+                                    </div>
+                                </div>
+
+                                <!-- Option 6 -->
+                                <div class="calc-item-row">
+                                    <div class="calc-item-meta">
+                                        <strong>Es Kopi Susu Aren IT-Solution</strong>
+                                        <small>Rp 8.000 / cup (Biji kopi asli nikmat & segar)</small>
+                                    </div>
+                                    <div class="calc-counter">
+                                        <input type="number" id="qty-drink" min="0" value="0" step="1"
+                                            class="calc-input" placeholder="0">
+                                        <span class="counter-unit">cup</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Grand Total Display -->
+                            <div class="calc-result-bar">
+                                <div class="result-text-wrap">
+                                    <span>Estimasi Total Pembayaran:</span>
+                                    <strong class="calc-grand-total" id="calc-total-display">Rp 0</strong>
+                                </div>
+                                <button class="btn btn-cyber-sm" id="btn-calc-order-wa">
+                                    <span>Pesan via WhatsApp</span>
+                                    <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor"
+                                        stroke-width="2" fill="none">
+                                        <path
+                                            d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                                        </path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== REVIEW / RATING DARI PEMBELI ==================== -->
+        <section class="reviews-section" id="ulasan">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <span class="section-tag-cyber">ULASAN & KEPUASAN PENGGUNA</span>
+                    <h2 class="section-title">Apa Kata Mereka yang Menggunakan IT-Solution?</h2>
+                    <p class="section-subtitle">
+                        Transparansi ulasan nyata dari mahasiswa, pengusaha UMKM, pekerja kantoran, dan pelanggan umum
+                        di Banjarmasin.
+                    </p>
+                </div>
+
+                <div class="reviews-layout">
+                    <!-- Rating Overview Score Card -->
+                    <div class="score-card-cyber">
+                        <div class="score-number">4.9</div>
+                        <div class="score-stars">★★★★★</div>
+                        <p class="score-summary">Berdasarkan <strong>420+ Penilaian</strong> Pelanggan Seluruh Kategori
+                        </p>
+
+                        <div class="score-breakdown">
+                            <div class="score-row">
+                                <span>5 Bintang</span>
+                                <div class="score-bar-bg">
+                                    <div class="score-bar-fill" style="width: 95%;"></div>
+                                </div>
+                                <span class="score-pct">95%</span>
+                            </div>
+                            <div class="score-row">
+                                <span>4 Bintang</span>
+                                <div class="score-bar-bg">
+                                    <div class="score-bar-fill" style="width: 4%;"></div>
+                                </div>
+                                <span class="score-pct">4%</span>
+                            </div>
+                            <div class="score-row">
+                                <span>3 Bintang</span>
+                                <div class="score-bar-bg">
+                                    <div class="score-bar-fill" style="width: 1%;"></div>
+                                </div>
+                                <span class="score-pct">1%</span>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-cyber-block" id="btn-open-review-modal">
+                            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2"
+                                fill="none">
+                                <path d="M12 20h9"></path>
+                                <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                            </svg>
+                            <span>Beri Ulasan Anda</span>
+                        </button>
+                    </div>
+
+                    <!-- Testimonial Cards List -->
+                    <div class="testimonial-stream" id="testimonial-stream">
+                        <!-- Review 1: Pelaku UMKM -->
+                        <div class="review-box">
+                            <div class="review-box-header">
+                                <div class="reviewer-avatar">BS</div>
+                                <div class="reviewer-meta">
+                                    <h4 class="reviewer-name">Budi Santoso</h4>
+                                    <span class="reviewer-sub">Owner Kedai Rasa Banjarmasin (UMKM) • Unit Percetakan &
+                                        Desain</span>
+                                </div>
+                                <div class="review-stars-gold">★★★★★</div>
+                            </div>
+                            <p class="review-text">
+                                "Pesan cetak stiker label kemasan sama brosur promo di IT-Solution hasilnya memuaskan
+                                banget! Warnanya kontras dan cutting rapi. Harganya sangat membantu efisiensi
+                                operasional usaha UMKM saya."
+                            </p>
+                            <div class="review-footer-date">2 hari yang lalu • Pelanggan UMKM</div>
+                        </div>
+
+                        <!-- Review 2: Mahasiswa Kampus -->
+                        <div class="review-box">
+                            <div class="review-box-header">
+                                <div class="reviewer-avatar">MR</div>
+                                <div class="reviewer-meta">
+                                    <h4 class="reviewer-name">Muhammad Rizky</h4>
+                                    <span class="reviewer-sub">Mahasiswa Tingkat Akhir • Jilid Hardcover Skripsi</span>
+                                </div>
+                                <div class="review-stars-gold">★★★★★</div>
+                            </div>
+                            <p class="review-text">
+                                "Jilid skripsi di Percetakan IT-Solution rapi banget, warna covernya presisi sesuai
+                                standar pedoman FTI UNISKA. Kemarin pas mepet jadwal sidang skripsi, adminnya standby
+                                bantu ngeprint sampai malam di sekretariat Adyaksa. Mantap poll!"
+                            </p>
+                            <div class="review-footer-date">Kemarin • Pelanggan Mahasiswa</div>
+                        </div>
+
+                        <!-- Review 3: Pekerja Kantoran / Umum -->
+                        <div class="review-box">
+                            <div class="review-box-header">
+                                <div class="reviewer-avatar">NA</div>
+                                <div class="reviewer-meta">
+                                    <h4 class="reviewer-name">Nurul Aulia</h4>
+                                    <span class="reviewer-sub">Event Organizer & Admin Kantor • IT-Solution F&B (Snack
+                                        Box)</span>
+                                </div>
+                                <div class="review-stars-gold">★★★★★</div>
+                            </div>
+                            <p class="review-text">
+                                "Pesan 40 paket rice bowl ayam dan snack box buat konsumsi workshop kantor di
+                                Banjarmasin Utara. Makanannya hangat, rasanya enak, dan pengirimannya on-time! Kopi
+                                arennya juga disukai peserta."
+                            </p>
+                            <div class="review-footer-date">4 hari yang lalu • Klien Instansi</div>
+                        </div>
+
+                        <!-- Review 4: Kreator / Konsinyasi -->
+                        <div class="review-box">
+                            <div class="review-box-header">
+                                <div class="reviewer-avatar">DF</div>
+                                <div class="reviewer-meta">
+                                    <h4 class="reviewer-name">Danu Firmansyah</h4>
+                                    <span class="reviewer-sub">Illustrator & Wirausaha Muda • IT-Solution
+                                        Konsinyasi</span>
+                                </div>
+                                <div class="review-stars-gold">★★★★★</div>
+                            </div>
+                            <p class="review-text">
+                                "Sangat terbantu sama unit konsinyasi IT-Solution HMP-TI. Saya titip jual gantungan
+                                kunci dan stiker anime kreasi mandiri di etalase mereka, tiap minggu laporannya
+                                transparan lewat WA dan selalu laku!"
+                            </p>
+                            <div class="review-footer-date">1 minggu yang lalu • Mitra Konsinyasi</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== LOKASI & KONTAK SEKRETARIAT UNISKA ==================== -->
+        <section class="contact-section" id="lokasi">
+            <div class="container">
+                <div class="contact-card-cyber">
+                    <div class="contact-info-col">
+                        <span class="section-tag-cyber">LOKASI & PUSAT LAYANAN</span>
+                        <h2 class="contact-heading">Kunjungi Kami di Kampus UNISKA Banjarmasin</h2>
+                        <p class="contact-desc">
+                            Pusat layanan IT-Solution terbuka untuk siapa saja. Anda dapat berkunjung langsung ke
+                            Sekretariat HMP-TI atau memesan dari rumah secara online via WhatsApp dengan opsi pengiriman
+                            kurir.
+                        </p>
+
+                        <div class="contact-detail-list">
+                            <div class="c-item">
+                                <div class="c-icon">📍</div>
+                                <div>
+                                    <strong>Alamat Sekretariat</strong>
+                                    <!-- Updated Address as Requested -->
+                                    <p class="address-highlight">
+                                        Kampus Uniska Jl. Adyaksa, Sungai Miai, Kec. Banjarmasin Utara, Kota
+                                        Banjarmasin, Kalimantan Selatan 70123
+                                    </p>
+                                    <small class="text-dim">Ruang Sekretariat HMP-TI, Gedung Fakultas Teknologi
+                                        Informasi (FTI)</small>
+                                </div>
+                            </div>
+
+                            <div class="c-item">
+                                <div class="c-icon">🕒</div>
+                                <div>
+                                    <strong>Jam Operasional Layanan</strong>
+                                    <p>Senin – Sabtu: 08.30 – 21.00 WITA (Chat Online Konsultasi Siaga Setiap Hari)</p>
+                                </div>
+                            </div>
+
+                            <div class="c-item">
+                                <div class="c-icon">💬</div>
+                                <div>
+                                    <strong>Hotline WhatsApp Resmi IT-Solution</strong>
+                                    <p>+62 812-3456-7890 (Layanan Cepat Tanggap)</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-actions">
+                            <a href="https://maps.google.com/?q=Universitas+Islam+Kalimantan+Muhammad+Arsyad+Al+Banjari+Banjarmasin"
+                                target="_blank" rel="noopener noreferrer" class="btn btn-cyber-lg">
+                                <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2"
+                                    fill="none">
+                                    <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                                </svg>
+                                <span>Buka di Google Maps</span>
+                            </a>
+                            <a href="https://wa.me/6281234567890?text=Halo%20Admin%20IT-Solution%20HMP-TI%20UNISKA%2C%20saya%20ingin%20tanya%20layanan"
+                                target="_blank" rel="noopener noreferrer" class="btn btn-glass-lg">
+                                <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2"
+                                    fill="none">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                                    </path>
+                                </svg>
+                                <span>Chat Admin WhatsApp</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Embedded Map & Fast Inquiry Container -->
+                    <div class="contact-map-col">
+                        <div class="map-cyber-wrapper">
+                            <div class="map-tag-banner">
+                                <span>📍 Titik Lokasi Kampus UNISKA Adyaksa</span>
+                                <span class="live-dot-green">Online Map</span>
+                            </div>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.210411136453!2d114.59596007497184!3d-3.298131596676344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de423a6331a90c1%3A0x7d6a5c102a06be3f!2sUniversitas%20Islam%20Kalimantan%20Muhammad%20Arsyad%20Al%20Banjari%20Banjarmasin!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
+                                title="Peta Lokasi Kampus UNISKA Banjarmasin" loading="lazy" allowfullscreen=""
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+
+                        <!-- Fast Inquiry Form -->
+                        <div class="form-cyber-box mini-inquiry">
+                            <h3>Tanya / Konsultasi Cepat</h3>
+                            <form id="fast-inquiry-form" class="cyber-form">
+                                <div class="input-field-wrap">
+                                    <input type="text" id="user-name"
+                                        placeholder="Nama Anda (contoh: Kevin / Budi UMKM)" required>
+                                </div>
+                                <div class="input-field-wrap">
+                                    <select id="select-unit" required>
+                                        <option value="Unit Percetakan & Dokumen">🖨️ Unit Percetakan & Dokumen</option>
+                                        <option value="Unit F&B (Food & Drink)">🍔 Unit F&B (Makanan & Minuman)</option>
+                                        <option value="Unit Konsinyasi Produk">📦 Unit Konsinyasi Produk</option>
+                                        <option value="Unit Jasa Kreatif Multimedia">🎨 Unit Jasa Kreatif Multimedia
+                                        </option>
+                                    </select>
+                                </div>
+                                <div class="input-field-wrap">
+                                    <textarea id="user-message" rows="2"
+                                        placeholder="Tuliskan kebutuhanmu (misal: mau cetak proposal atau pesan rice bowl)..."
+                                        required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-cyber-block">
+                                    <span>Kirim ke WhatsApp Admin</span>
+                                    <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor"
+                                        stroke-width="2" fill="none">
+                                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top-grid">
+                <div class="footer-brand-info">
+                    <div class="nav-brand footer-logo">
+                        <span class="brand-badge-icon">
+                            <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2.2"
+                                fill="none">
+                                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                                <polyline points="2 17 12 22 22 17"></polyline>
+                                <polyline points="2 12 12 17 22 12"></polyline>
+                            </svg>
+                        </span>
+                        <div class="brand-text">
+                            <span class="brand-title">IT-<strong>Solution</strong></span>
+                            <span class="brand-sub">WIRAUSAHA HMP-TI UNISKA</span>
+                        </div>
+                    </div>
+                    <p class="footer-desc-text">
+                        IT-Solution adalah unit usaha terpadu di bawah naungan HMP-TI UNISKA Banjarmasin yang melayani
+                        kebutuhan percetakan, konsumsi F&B, kemitraan konsinyasi, dan jasa kreatif multimedia untuk
+                        mahasiswa, pelaku UMKM, dan masyarakat luas.
+                    </p>
+                    <div class="social-icon-row">
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link"
+                            aria-label="Instagram IT-Solution HMP-TI UNISKA">
+                            <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2"
+                                fill="none">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="social-link"
+                            aria-label="TikTok IT-Solution">
+                            <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2"
+                                fill="none">
+                                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer"
+                            class="social-link" aria-label="WhatsApp Hotline IT-Solution">
+                            <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2"
+                                fill="none">
+                                <path
+                                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links-col">
+                    <h4 class="f-col-title">Navigasi Utama</h4>
+                    <ul class="f-links">
+                        <li><a href="#beranda">Beranda</a></li>
+                        <li><a href="#keunggulan">Keunggulan Layanan</a></li>
+                        <li><a href="#unit-usaha">Katalog 4 Unit Usaha</a></li>
+                        <li><a href="#kalkulator">Kalkulator Biaya</a></li>
+                        <li><a href="#ulasan">Ulasan Pelanggan</a></li>
+                        <li><a href="#lokasi">Lokasi & Kontak</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-col">
+                    <h4 class="f-col-title">4 Unit Usaha</h4>
+                    <ul class="f-links">
+                        <li><a href="#unit-usaha">IT-Solution F&B (Food & Drink)</a></li>
+                        <li><a href="#unit-usaha">IT-Solution Percetakan & Dokumen</a></li>
+                        <li><a href="#unit-usaha">IT-Solution Konsinyasi Produk</a></li>
+                        <li><a href="#unit-usaha">IT-Solution Jasa Kreatif</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-col">
+                    <h4 class="f-col-title">Pusat Sekretariat</h4>
+                    <p class="f-text-small">
+                        Program Studi Teknik Informatika<br>
+                        Fakultas Teknologi Informasi (FTI)<br>
+                        Universitas Islam Kalimantan MAB (UNISKA)<br>
+                        Jl. Adyaksa, Sungai Miai, Banjarmasin Utara 70123.
+                    </p>
+                    <div class="uniska-badge">Vivat HMP-TI UNISKA! 🚀</div>
+                </div>
+            </div>
+
+            <div class="footer-bottom-bar">
+                <p>&copy; 2026 IT-Solution HMP-TI UNISKA Banjarmasin. All rights reserved. Unit Kewirausahaan Terpadu.
+                </p>
+                <p class="footer-tech-tag">Futuristic Cyber Experience • HTML5, CSS3 & JS</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== MODAL TULIS ULASAN ==================== -->
+    <div class="modal-backdrop" id="modal-review" role="dialog" aria-modal="true" aria-labelledby="modal-review-title">
+        <div class="modal-card">
+            <div class="modal-header">
+                <h3 id="modal-review-title">Beri Ulasan Layanan IT-Solution</h3>
+                <button class="modal-close-btn" id="btn-close-modal" aria-label="Tutup Dialog">&times;</button>
+            </div>
+
+            <form id="review-submission-form" class="modal-form">
+                <div class="input-field-wrap">
+                    <label for="rev-author">Nama Anda / Instansi</label>
+                    <input type="text" id="rev-author" placeholder="Contoh: Budi Santoso (Owner Kedai / Mahasiswa)"
+                        required>
+                </div>
+
+                <div class="input-field-wrap">
+                    <label for="rev-department">Kategori Anda</label>
+                    <input type="text" id="rev-department" placeholder="Contoh: Pelaku UMKM / Mahasiswa TI / Umum"
+                        required>
+                </div>
+
+                <div class="input-field-wrap">
+                    <label for="rev-unit">Unit yang Anda Gunakan</label>
+                    <select id="rev-unit" required>
+                        <option value="IT-Solution Percetakan & Dokumen">🖨️ IT-Solution Percetakan & Dokumen</option>
+                        <option value="IT-Solution F&B (Food & Drink)">🍔 IT-Solution F&B (Makanan & Minuman)</option>
+                        <option value="IT-Solution Konsinyasi">📦 IT-Solution Konsinyasi Produk</option>
+                        <option value="IT-Solution Jasa Kreatif">🎨 IT-Solution Jasa Kreatif Multimedia</option>
+                    </select>
+                </div>
+
+                <div class="input-field-wrap">
+                    <label>Beri Bintang Kepuasan</label>
+                    <div class="star-rating-picker" id="star-picker">
+                        <span class="star-item active" data-val="1">★</span>
+                        <span class="star-item active" data-val="2">★</span>
+                        <span class="star-item active" data-val="3">★</span>
+                        <span class="star-item active" data-val="4">★</span>
+                        <span class="star-item active" data-val="5">★</span>
+                        <span class="star-score-text" id="star-score-text">5 Bintang (Sangat Memuaskan)</span>
+                    </div>
+                    <input type="hidden" id="rev-score-val" value="5">
+                </div>
+
+                <div class="input-field-wrap">
+                    <label for="rev-feedback">Ceritakan Pengalaman Anda</label>
+                    <textarea id="rev-feedback" rows="3"
+                        placeholder="Bagikan pendapat Anda mengenai kualitas hasil, kecepatan layanan, atau rasa makanan..."
+                        required></textarea>
+                </div>
+
+                <div class="modal-actions-row">
+                    <button type="button" class="btn btn-glass-sm" id="btn-cancel-modal">Batal</button>
+                    <button type="submit" class="btn btn-cyber-sm">Kirim Ulasan</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Interactive Toast Notification Element -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
